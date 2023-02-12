@@ -1,0 +1,65 @@
+.footer {
+    background-color: $color-violet--darken;
+    height: 300px;
+    display: flex;
+    padding-bottom: 0px;
+
+    &-contact{
+        padding-top: $p-5;
+        color: $color-white;
+
+
+        &__webstudio{
+            font-style: normal;
+            font-weight: 700;
+            font-size: $font-28;
+            line-height: 31px;
+            letter-spacing: 0.03em;
+    
+            margin-left: 200px;
+            margin-right: 80px;
+
+            
+            
+        &_web{
+            color: $color-web;
+        }
+        }
+    }
+    &-join{
+        color: $color-white;
+        font-size: $font-12;
+        padding-top: 7rem;
+        padding-left: $p-6;
+         &__icons {
+            display: flex;
+            justify-content: space-evenly;
+            //height: 100%;
+
+            &_icon {
+                height: 50px;
+                width: 50px;
+
+                border-radius: 50%;
+                background-size: auto;
+                padding: 10px;
+                background-color: $color-gray;
+                margin-bottom: 0rem;
+
+                
+                margin-right: $m-1;
+            }
+        }
+    }
+}
+.footer-join__icons_icon:hover {
+background-color: $color-web;}
+.info {
+    list-style: none;
+    color: $color-white;
+    margin-left: 200px;
+    
+}
+.logo-soc{
+    height: 50px;
+}
