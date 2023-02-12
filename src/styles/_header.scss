@@ -1,0 +1,132 @@
+.navbar {
+    text-align: center;
+
+    font-size: $font-16;
+
+
+
+    width: 400px;
+    height: 48px;
+
+    &-lists {
+        margin: 0;
+        padding: 0;
+
+        &__list {
+
+            display: inline-block;
+            padding: 2.5rem 1rem;
+
+
+            list-style: none;
+
+        }
+    }
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-webstudio {
+        font-style: normal;
+        font-weight: 700;
+        font-size: $font-28;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+
+        margin-left: 200px;
+        margin-right: 80px;
+
+        &__web {
+            color: $color-web;
+
+        }
+    }
+
+    &-info {
+        height: 48px;
+        margin-left: 200px;
+        font-size: $font-18;
+        margin-top: 25px;
+
+        &__logo {
+            height: 24px;
+            width: 24px;
+
+        }
+
+    }
+
+    &-back {
+        text-align: center;
+
+        &__texts {
+            
+
+
+            text-align: center;
+            color: $color-white;
+
+
+            background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('https://6e3ver6k.github.io/goit-markup-hw-06/images/hero-our-compay.jpg');
+            height: 600px;
+           
+            background-position: 50% 50%;
+            background-size: 100%;
+           
+
+            &_text {
+                font-size: $font-48;
+                font-weight: $font-w-700;
+                margin: $m-0;
+                padding: 200px 630px 50px;
+                
+
+                
+                
+            }
+
+            &_btm {
+                width: 200px;
+                height: 200px;
+                margin: $m-1 $m-2;
+                padding: $p-1;
+
+                text-decoration: none;
+                line-height: 45px;
+                border-radius: 5px;
+                text-align: center;
+                letter-spacing: 1px;
+
+                font-size: $font-16;
+                font-weight: $font-w-500;
+
+                color: $color-white;
+                background: $color-web;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+            }
+
+        }
+    }
+
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: $color-black;
+
+}
+
+.navbar-lists__list a {
+    text-decoration: none;
+    color: $color-black;
+}
+
+a.link:hover {
+    color: $color-web;
+}

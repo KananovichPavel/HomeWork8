@@ -1,0 +1,219 @@
+.peculiarities {
+
+    margin-top: $m-6;
+
+
+    &-logo {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+
+
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+
+
+
+        &__back {
+
+            background-color: $color-blue;
+            border-radius: 5px;
+
+            width: 300px;
+            height: 150px;
+            text-align: center;
+
+
+
+            &_icon {
+
+
+                width: 150px;
+                height: 150px;
+
+
+                background-color: $color-green;
+                border-radius: 5px;
+
+
+
+
+                list-style: none;
+
+            }
+        }
+
+        &__title {
+            font-size: $font-20;
+            width: 300px;
+
+
+        }
+
+        &__text {
+            text-align: left;
+            width: 300px;
+            color: $color-gray;
+
+
+
+        }
+    }
+}
+
+.title {
+    font-family: $font-family;
+    font-size: $font-32;
+    font-weight: $font-w-700;
+
+    text-align: center;
+    color: $color-black;
+
+    margin-top: $m-6;
+}
+
+.work {
+
+    &-page {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+
+        text-align: center;
+        color: $color-white;
+        font-size: $font-14;
+        font-weight: $font-w-700;
+
+
+        margin-bottom: $m-6;
+
+        &__page1 {
+            background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('https://nanosemantics.ai/wp-content/uploads/2019/12/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-1024x683.jpg');
+            width: 400px;
+            height: 300px;
+            background-size: 100% 100%;
+
+
+        }
+
+        &__page2 {
+            background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('https://6e3ver6k.github.io/goit-markup-hw-06/images/our-work/ui-ux-designing_370x294.jpg');
+            width: 400px;
+            height: 300px;
+            background-size: 100% 100%;
+
+
+        }
+
+        &__page3 {
+            background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('https://6e3ver6k.github.io/goit-markup-hw-06/images/our-work/color-picking_370x294.jpg');
+            width: 400px;
+            height: 300px;
+
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.work-text {
+    height: 60px;
+    width: 400px;
+    margin-top: 240px;
+    padding: 20px;
+    background-color: rgba(47, 48, 58, 0.8);
+    ;
+
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+    margin-bottom: $m-6;
+    text-align: center;
+
+    &-card {
+        background: #FFFFFF;
+        margin-top: $m-2;
+        /* material shadow v1 */
+
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+
+
+
+
+        &__person {
+            margin-top: 0px;
+
+            &_foto {
+                height: 270px;
+                width: 260px;
+
+            }
+        }
+
+        &__name {
+            font-weight: $font-w-500;
+            font-size: $font-16;
+
+
+        }
+
+        &__icons {
+            display: flex;
+            justify-content: space-evenly;
+            height: 100%;
+
+            &_icon {
+                height: 50px;
+                width: 50px;
+
+                border-radius: 50%;
+                background-size: auto;
+                padding: 10px;
+
+                margin-bottom: $m-2;
+            }
+        }
+
+
+    }
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+    &-logo {
+        border: 2px solid $color-gray;
+        border-radius: 5px;
+        margin-bottom: $m-6;
+
+        &__icon {
+            height: 120px;
+            width: 200px;
+        }
+    }
+}
+
+.teams {
+    background-color: #f5f4fa;
+    background-size: 150%;
+    padding-top: $p-1;
+    padding-bottom: $p-2;
+
+
+}
+
+.team-card__icons_icon:hover {
+    background-color: $color-web;
+}
+
+.clients-logo:hover {
+    border: 2px solid $color-web;
+}
